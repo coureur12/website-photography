@@ -1,1 +1,9 @@
-¨g
+@media screen and (max-width: 800px) {
+    .footer-container{
+        flex-direction: column;
+    }
+    .about-container{
+        flex-direction: column;
+        align-items: center;
+    }
+}
