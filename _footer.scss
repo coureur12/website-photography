@@ -1,40 +1,68 @@
-
-
-.footer {
-    background-color: #2d0808;
-    color: white;
-    display: flex;
-    justify-content: center;
+.footer{
     width: 100%;
-    position: relative;
-    bottom: 0;
+    height: max-content;
+    background-color: #2d0808;
+    color: white
+}
+.footer-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-container__body{
+    width: 50%;
+    height: auto;
+    padding: 50px;
+}
+.zeubi{
+    display: flex;
+    width: max-content;
+    img + .footer-container__title{
+        margin-left: 20px;
+    }
+    img{
+        width: 30px; 
+    }
 }
 
-
-.footer-container__body {
-    padding-top: 1rem;
-    padding-bottom: 1em;
+.footer-container__title{
+    font-family: "lemon/milk";
+    font-size: 20px;
 }
 
-.footer-container__title {
-    font-size: .75em;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+.footer-container__text{
+    text-align: justify;
+    width: 30vw;
+    font-size: 13px;
 }
-
-.footer-container__text {
-    font-size: 0.8em;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* ntm*/
 
 .footer-container__link{
-    font-size: 1em;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-top: 0.5%;
-    padding-bottom: 0.5%;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-items: center;
+    height: min-content;
+    input{
+        max-width: 300px;
+        width: 30vw;
+        height: 30px;
+        border-radius: 5px;
+        border: none;
+    }
+    button{
+        height: 30px;
+        background-color: #FF003D;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        margin-left: 20px;
+    }
+    p{
+        width: min-content;
+        padding-left: 20px;
+    }
+    svg{
+        width: 30px;
+        height: 30px;
+    }
 }
+
+
