@@ -1,0 +1,44 @@
+
+.portfolio{
+    width: 100%;
+    display: flex;
+    align-self: center;
+}
+
+.galerie{
+    width: 50%;
+    max-width: 80%;
+}
+
+.image{
+    width: 10em;
+    height: 10em;
+    border-radius: 5px;
+}
+
+.parallax{
+    background-image: url("/img/B03.png");
+    min-height: 200px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio-text{
+    align-self: center;
+}
+
+.portfolio-text__h2{
+    padding: 6%;
+    text-align: center;
+    font-size: 4em;
+}
+
+.filter{
+    max-width:100%;
+}
+
+.filter-mainnav{
+    align-self: center;
+}
