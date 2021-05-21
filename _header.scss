@@ -1,0 +1,34 @@
+
+.header{
+    width: 100%;
+}
+.main-nav{
+    background-color: #2d0808;
+    box-shadow: 0 8px 12px 0 rgba(31, 38, 135, 0.37);
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.main-nav__list{
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.main-nav__item{
+    float: left;
+    text-align: center;    
+    font-size: 1.5rem;
+    padding: 15px;
+    list-style-type: none;
+
+}
+
+.main-nav__link{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+
