@@ -1,36 +1,14 @@
+var slideIndex = 0;
+showSlides();
 
-let slides = document.querySelectorAll('.slide-ana div');
-let slideNumber = slides.length;
-
-
-
-for (let index = 0; index < slides.length; index++) {
-    const element = slides[index];
-    element.style.transform = "translateX("+100*(index)+"%)";
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("zeubi-img");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 2000);
 }
-let loop = 0 + 1000*slideNumber;
-
-function goNext(){
-    loop++;
-            for (let index = 0; index < slides.length; index++) {
-                const element = slides[index];
-                element.style.transform = "translateX("+100*(index-loop%slideNumber)+"%)";
-            }
-}
-
-function goPrev(){
-    loop--;
-            for (let index = 0; index < slides.length; index++) {
-                const element = slides[index];
-                element.style.transform = "translateX("+100*(index-loop%slideNumber)+"%)";
-            }
-}
-
-// Auto increment
-var int = 5000;
-interval = setInterval(goNext, int);
-
-var startInterval = function() {
-    interval = setInterval(goNext, int);
-}
-
