@@ -1,0 +1,71 @@
+.parallax-contact{
+    background-image: url("/img/L01-zeubi.png");
+    
+}
+
+.contact-text__title {
+    padding-top: 7%;
+    text-align: center;
+    font-size: 5em;
+}
+
+.form-item__p{
+    font-size: clamp(1.2em,1.3em,2vw);
+}
+
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.form-text {
+    color: green;
+}
+
+.form-item {
+    width: 50vw;
+    max-width: 700px;
+    padding-bottom: 3%;
+}
+
+.input {
+    height: 40px;
+    font-size: 1em;
+    font-family: "poppins";
+    border-radius: 5px 5px 0px 0px;
+    border: none;
+    border-bottom: 2px solid #FF003D ;
+    background: rgb(252, 249, 249);
+    transition: 3s;
+    margin-top: 15px;
+}
+.input:hover{
+    box-shadow: 1px 3px 50px -21px ;
+    transform: scale(1.01);
+
+}
+
+.submit-btn{
+    height: 50px;
+    background-color: #FF003D;
+    color: white;
+    border: none;
+    font-family: "poppins";
+    border-radius: 5px;
+    max-width: 300px;
+    width: 20vw;
+    min-width: 100px;
+    margin-bottom: 30px;
+    font-size: clamp(1.5vw,1.5em,1.3vw);
+    transition: 0.2s;
+}
+
+.submit-btn:active{
+    background-color: #f72b6f;
+}
