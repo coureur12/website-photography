@@ -320,7 +320,7 @@
 }
 
 .parallax-contact {
-  background-image: url("/img/L01-zeubi.png");
+  background-image: url("img/L01-zeubi.png");
 }
 
 .contact-text__title {
@@ -415,7 +415,7 @@
 }
 
 .parallax-portrait {
-  background-image: url("/img/B03-zeubi.png");
+  background-image: url("img/B03-zeubi.png");
 }
 
 .filter-items {
