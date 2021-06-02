@@ -708,7 +708,7 @@ span {
     width: 50vw;
     height: 250px;
     max-width: 1100px;
-    min-width: 150px;
+    min-width: 300px;
     margin-bottom: 20px;
   }
   .leslie {
@@ -768,6 +768,7 @@ span {
     padding-left: 4%;
   }
   .about-container__text {
+    min-width: 300px;
     height: 290px;
   }
 }
